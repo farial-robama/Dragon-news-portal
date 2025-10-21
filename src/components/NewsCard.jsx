@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const NewsCard = ({ news }) => {
 
-    const { title, author, thumbnail_url, details, rating, total_view } = news;
+    const {id, title, author, thumbnail_url, details, rating, total_view } = news;
 
   const formattedDate = new Date(
     news.author.published_date
